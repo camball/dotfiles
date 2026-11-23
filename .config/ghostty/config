@@ -1,0 +1,42 @@
+# Theme
+theme = Earthsong
+
+# Window
+background-opacity = 0.7
+background-blur-radius = 15
+window-height = 26
+window-width = 80
+
+# Titlebar
+macos-titlebar-style = tabs
+window-title-font-family = FiraCode Nerd Font
+
+# Font
+font-family = FiraCode Nerd Font
+
+# Custom Cursor Style
+cursor-style = underline
+shell-integration-features = no-cursor
+
+# Cursor Shaders
+# - Ref: https://github.com/sahaj-b/ghostty-cursor-shaders
+custom-shader = shaders/cursor_warp.glsl
+
+# Quick Terminal
+keybind = global:option+grave_accent=toggle_quick_terminal
+
+# Disable mouse while typing
+mouse-hide-while-typing = true
+
+# App Icon Customisation
+macos-icon = custom-style
+macos-icon-ghost-color = White
+macos-icon-screen-color = BlanchedAlmond
+
+# Notifications
+notify-on-command-finish = unfocused
+notify-on-command-finish-action = bell,notify
+notify-on-command-finish-after = 4s
+
+# Splits
+unfocused-split-opacity = 0.8

@@ -1,0 +1,13 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+command_timeout = 1000 # double the default of 500
+
+# Replace default prompt
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
+
+[gcloud]
+format = 'on [$symbol$account(@$domain)(\($region\)) (\($project\))]($style) '
+symbol = '☁️ '
